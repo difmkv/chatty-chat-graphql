@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  box-sizing: content-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: sans-serif;
+}
+
+h1 {
+  margin: 50px 0;
+}
+
+.container {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container input {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin: 0 5px;
+  width: 20%;
+  border-radius: 5px;
+  border: 2px solid slategray;
+}
+
+.container input:nth-child(1) {
+  background-color: slategrey;
+  border: 2px solid slategray;
+  color: aliceblue;
+}
+
+.container input:nth-child(2) {
+  width: 30%;
+}
+
+button {
+  padding: 0.6em 1em;
+  background-color: slateblue;
+  color: white;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+}
